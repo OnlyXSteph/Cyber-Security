@@ -4,6 +4,13 @@ Challenge Goals:
 
 ### Username Enumeration
 
+The vulnerability is on the green site. 
+
+The existing user "jmonroe99" allows us to compare the responses we get after testing with an 
+existing user and a nonexisting user. This vulnerability allows us to find out whether a username 
+exists since the text response for "jmonroe99" is in bold and responses for nonexisting usernames 
+are not. 
+
 <img src="usrn_enum.gif" alt="Username Enumeration">
  
 ### Insecure Direct Object Reference
