@@ -22,7 +22,6 @@ of some sales people. The ids 10, 11 and 12 give access to pages for 3 otherwise
 people: Testy McTesterson, Lazy Lazyman and John Wick. This vulnerability doesn't exist on the 
 Blue and Green sites since illegal id requests will redirect the user to the salesperson page. 
 
-
 <img src="idor.gif" alt="Insecure Direct Object Reference">
 
 ### SQL Injection
@@ -38,8 +37,8 @@ that makes the database sleep for 5 seconds.
 
 The vulnerability is on the GREEN site.
 
-On the contact page, the contact form's feedback section allows you to enter some javascript that 
-can be executed by the browser. 
+On the contact page, the contact form's feedback section allows you to enter some javascript 
+that can be executed by the browser. 
 
 <img src="XXS.gif" alt="Cross-Site Scripting">
 
@@ -52,5 +51,10 @@ A user with any CSRF token can add and edit users.
 <img src="CSRF.gif" alt="Cross-Site Request Forgery">
 
 ### Session Hijacking/Fixation
+
+The vulnerability is on the BLUE site. 
+
+If an admin is logged in, their sessionID can be used and set as the sessionID for an unauthorized 
+user giving them access. 
 
 <img src="shf.gif" alt="Session Hijacking/Fixation">
