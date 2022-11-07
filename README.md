@@ -45,7 +45,11 @@ can be executed by the browser.
 
 ### Cross-Site Request Forgery
 
-<img src="cs_req_forg.gif" alt="Cross-Site Request Forgery">
+The vulnerability is on the RED site. 
+
+A user with any CSRF token can add and edit users.
+
+<img src="CSRF.gif" alt="Cross-Site Request Forgery">
 
 ### Session Hijacking/Fixation
 
