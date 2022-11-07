@@ -27,7 +27,12 @@ requests will redirect the user to the salesperson page.
 
 ### SQL Injection
 
-<img src="SQL_inj.gif" alt="SQL Injection">
+The vulnerability is on the BLUE site. 
+
+The site is vulnerable to SQL injection attacks because we can use a URL encoded SQL command that makes the 
+database sleep for 5 seconds. 
+
+<img src="SQLI.gif" alt="SQL Injection">
 
 ### Cross-Site Scripting
 
