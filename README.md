@@ -1,6 +1,8 @@
 # Project 9 - Pen Testing Live Targets
 
-Challenge Goals: 
+Note: GIFs will take a while to load. 
+
+## Challenge Goals: 
 
 ### Username Enumeration
 
