@@ -41,7 +41,7 @@ The vulnerability is on the GREEN site.
 On the contact page, the contact form's feedback section allows you to enter some javascript that 
 can be executed by the browser. 
 
-<img src="cs_scripting.gif" alt="Cross-Site Scripting">
+<img src="XXS.gif" alt="Cross-Site Scripting">
 
 ### Cross-Site Request Forgery
 
