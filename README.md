@@ -4,7 +4,7 @@ Challenge Goals:
 
 ### Username Enumeration
 
-The vulnerability is on the green site. 
+The vulnerability is on the GREEN site. 
 
 The existing user "jmonroe99" allows us to compare the responses we get after testing with an 
 existing user and a nonexisting user. This vulnerability allows us to find out whether a username 
@@ -14,6 +14,14 @@ are not.
 <img src="usrn_enum.gif" alt="Username Enumeration">
  
 ### Insecure Direct Object Reference
+
+The vulnerability is on the RED site. 
+
+The id parameter can be modified and generates new GET requests that allow us to view the details of some 
+sales people. The ids 10, 11 and 12 give access to pages for 3 otherwise unlisted sales people: Testy McTesterson, 
+Lazy Lazyman and John Wick. This vulnerability doesn't exist on the Blue and Green sites since illegal id
+requests will redirect the user to the salesperson page. 
+
 
 <img src="idor.gif" alt="Insecure Direct Object Reference">
 
