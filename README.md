@@ -2,5 +2,5 @@
 
 ### Milestone 1
 
-<img src="milestone1.gif" alt="milestone1">
+<img src="firewall.gif" alt="MHN Firewall">
 
