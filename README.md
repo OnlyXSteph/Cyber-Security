@@ -11,4 +11,4 @@
 ### Milestone 5
 
 <img src="nmap.gif" alt="nmap"> 
-<img src="attacks.gif" alt="Attacks">
+<img src="attacks.png" alt="Attacks">
