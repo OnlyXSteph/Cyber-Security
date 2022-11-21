@@ -6,5 +6,5 @@
 
 ### Milestones 3 - 4 
 
-<img src="honeypot1.png" alt="Honeypot VM Sensor"
+<img src="honeypot1.gif" alt="Honeypot VM Sensor"
 
