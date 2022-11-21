@@ -2,4 +2,5 @@
 
 ### Milestone 1
 
+<img src="milestone1.gif" alt="milestone1">
 
